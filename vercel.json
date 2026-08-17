@@ -9,7 +9,7 @@
   ],
   "functions": {
     "api/**/*.js": {
-      "memory": 4096,
+      "memory": 2048,
       "maxDuration": 60,
       "runtime": "nodejs22.x"
     }
