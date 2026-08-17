@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.js"
+    }
+  ],
+  "functions": {
+    "api/**/*.js": {
+      "memory": 3008,
+      "maxDuration": 60,
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "MAX_FILE_SIZE_MB": "25"
+  }
+}
