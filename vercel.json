@@ -9,9 +9,9 @@
   ],
   "functions": {
     "api/**/*.js": {
-      "memory": 3008,
+      "memory": 4096,
       "maxDuration": 60,
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs22.x"
     }
   },
   "env": {
