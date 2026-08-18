@@ -2,10 +2,11 @@
   "name": "sales-data-processor",
   "version": "1.0.0",
   "description": "Sales data cleaner & dashboard builder deployed on Vercel",
+  "type": "module",
   "main": "api/process.js",
   "scripts": {
     "dev": "node server.js",
-    "build": "echo 'Building...'",
+    "build": "echo \"Building...\"",
     "start": "node server.js"
   },
   "dependencies": {
